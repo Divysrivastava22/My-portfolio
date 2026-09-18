@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #111;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+/* Home */
+
+.home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #222831;
+    color: white;
+}
+
+.home h1 {
+    font-size: 50px;
+}
+
+.home h1 span {
+    color: #00adb5;
+}
+
+.home h2 {
+    margin: 15px 0;
+}
+
+.home p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Home Section */
+
+.home {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.home-content {
+    max-width: 700px;
+}
+
+.home h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.home h1 span {
+    color: #00adb5;
+}
+
+.home h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* About Section */
+
+#about {
+    min-height: 70vh;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+/* Skills Section */
+
+#skills {
+    min-height: 60vh;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background-color: #111;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width: 120px;
+}
+/* Projects Section */
+#projects {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.project {
+    background: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+/* Contact Section */
+#contact {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#contact textarea {
+    height: 150px;
+    resize: none;
+}
+
+#contact button {
+    padding: 15px;
+    font-size: 17px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background: #0097a7;
+}
+/* Navbar Design */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #111;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar ul li a:hover {
+    color: #00bcd4;
+}
+/* Skills Hover Effect */
+
+.skills div {
+    transition: 0.3s;
+}
+
+.skills div:hover {
+    transform: translateY(-10px);
+}
+/* Projects Hover Effect */
+
+.project {
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+/* Contact Form Effects */
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border: 2px solid #00bcd4;
+}
+
+#contact button {
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    transform: scale(1.05);
+}
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    color: white;
+    margin-top: 40px;
+}
